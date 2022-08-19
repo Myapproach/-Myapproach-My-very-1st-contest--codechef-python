@@ -1,0 +1,6 @@
+n,a,B=map(int,input().split())
+#n and a has not submit any answer
+#B has tried but they were wrong and even thugh the submitted
+submitted=n-a
+submi_wrong_ans=submitted-B
+print(submitted,submi_wrong_ans)
